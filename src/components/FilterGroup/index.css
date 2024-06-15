@@ -1,0 +1,84 @@
+@media screen and (min-width: 768px) {
+  .filter-container {
+    width: 25%;
+  }
+}
+.profile-container {
+  height: 230px;
+  margin-top: 10px;
+}
+.profile-loader-container {
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.profile-img {
+  width: 60px;
+}
+.profile-name {
+  color: #6366f1;
+  font-family: 'space grotesk';
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  .profile-name {
+    font-size: 18px;
+  }
+}
+.profile-bio {
+  color: #2c364c;
+  font-family: 'space grotesk';
+  font-size: 18px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 767px) {
+  .profile-bio {
+    font-size: 16px;
+  }
+}
+.profile-failure-container {
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-seperator {
+  border: 1px solid #64748b;
+}
+.salary-employment-head {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'space grotesk';
+}
+@media screen and (max-width: 767px) {
+  .salary-employment-head {
+    font-size: 18px;
+  }
+}
+.salary-employment-container {
+  margin-top: 20px;
+}
+.salary-employment-item {
+  margin-bottom: 10px;
+}
+.salary-employment-label {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'space grotesk';
+  margin-left: 5px;
+}
+@media screen and (max-width: 767px) {
+  .salary-employment-label {
+    font-size: 16px;
+  }
+}

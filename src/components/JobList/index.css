@@ -1,0 +1,135 @@
+.job-list-container {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .job-list-container {
+    padding: 20px;
+  }
+}
+.company-logo-section {
+  display: flex;
+  align-items: flex-start;
+}
+.company-logo {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (max-width: 767px) {
+  .company-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+.title-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.title {
+  font-family: 'space grotesk';
+  font-size: 25px;
+  color: #fff;
+  margin: 0px;
+}
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 22px;
+  }
+}
+.rating-section {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.star-icon {
+  font-size: 20px;
+  color: #fbbf24;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .star-icon {
+    font-size: 18px;
+  }
+}
+.rating {
+  font-family: 'space grotesk';
+  font-size: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .rating {
+    font-size: 18px;
+  }
+}
+.job-details-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-type {
+  display: flex;
+  align-items: center;
+}
+.icon-section {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.icons {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .icons {
+    font-size: 18px;
+  }
+}
+.location-job-type {
+  font-family: 'space grotesk';
+  font-size: 15px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .location-job-type {
+    font-size: 14px;
+  }
+}
+.package {
+  font-family: 'space grotesk';
+  font-size: 25px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .package {
+    font-size: 22px;
+  }
+}
+.line {
+  border: 1px solid #64748b;
+  margin: 0px;
+}
+.description-head {
+  font-family: 'space grotesk';
+  font-size: 25px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .description-head {
+    font-size: 22px;
+  }
+}
+.description {
+  font-family: 'space grotesk';
+  font-size: 18px;
+  color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .description {
+    font-size: 16px;
+  }
+}
