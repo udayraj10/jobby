@@ -71,11 +71,13 @@ class JobItemDetails extends Component {
   )
 
   render() {
+    const {jobData} = this.state
+    const {skills} = jobData
     return (
       <>
         <Header />
         <div className="job-detail-container">
-          <h1>jai</h1>
+          {skills.map((each) => (<h1>{each.name}</h1>))}
         </div>
       </>
     )
